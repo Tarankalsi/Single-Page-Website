@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#header {
+    color: white;
+    background: #e74c3c;
+    background: url("2.jpg") no-repeat 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#navbar {
+    background: rgba(45, 52, 54, 0.3);
+    border-radius: 20px;
+    letter-spacing: 1px;
+
+}
+
+#navbar-row2 {
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+#navbar-row2 li {
+    display: inline-block;
+}
+
+#navbar-row2 li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+#navbar-row2 li a:hover {
+    padding: 10px;
+    background: #c0392b;
+    border-radius: 5px;
+
+}
+
+#navbar button {
+    color: white;
+    background: #192a56;
+    border-radius: 1;
+}
+
+#navbar button:hover {
+    color: #192a56;
+    background: white;
+    border-radius: 1;
+    border-color: #192a56;
+}
+
+#logo {
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+#menu li a:hover {
+    background: #c0392b;
+    border-radius: 5px;
+    padding: 7px 20px 10px 20px
+}
+
+#banner {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    padding-top: 3rem;
+
+}
+
+.banner-title h6 {
+    letter-spacing: 3px;
+}
+
+.banner-title h1 {
+
+    color: #e74c3c;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 3px;
+}
+
+#bannerform {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 60px;
+}
+
+
+#bannerform label h6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+#bannerform button {
+    color: white;
+    background: #192a56;
+    border-radius: 1;
+    margin-top: 5px;
+}
+
+#bannerform button:hover {
+    color: #192a56;
+    background: white;
+    border-radius: 5;
+    border-color: #192a56;
+}
+
+.searches {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.searches li a {
+    color: white;
+}
+
+#workerImage img {
+    height: 45vw;
+}
+
+
+
+#jobSeeker h6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#jobSeeker h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #c0392b;
+}
+
+#jobSeeker li {
+    font-family: 'DM Sans', sans-serif;
+    list-style: circle;
+    font-size: 16px;
+}
+
+#recruiterImage img {
+    height: 35vw;
+}
+
+#under-banner button {
+    background: white;
+    border-color: #192a56;
+    color: #192a56;
+}
+
+#under-banner button:hover {
+    background-color: #c0392b;
+    color: white;
+    border-color: white;
+}
+
+
+#brands {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #f0f0f0;
+}
+
+.logo-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo-slider {
+    display: flex;
+    animation: slideAnimation 8s linear infinite;
+}
+
+.logo {
+    height: 100px;
+    margin: 30px;
+}
+    
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(-160%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+.more-list li a:hover{
+    font-weight: bolder;
+}
